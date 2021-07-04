@@ -1,0 +1,45 @@
+.section4 {
+  min-height: 52.4vh;
+  position: relative;
+  overflow-x: hidden; }
+  .section4 .background_image2 {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: #000000; }
+  .section4 .img_cover {
+    min-height: 52.4vh;
+    background-color: black;
+    opacity: 0.4; }
+  .section4 .content_wrapper {
+    min-height: 52vh;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%; }
+    .section4 .content_wrapper h1 {
+      font-family: "Crimson Text";
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 66px;
+      color: #ffffff;
+      margin-bottom: 14px; }
+    .section4 .content_wrapper .btn {
+      cursor: pointer;
+      display: inline-block;
+      background-color: transparent;
+      border: 1px solid #ffffff;
+      padding: 12px 41px;
+      color: #fff;
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 21px;
+      color: #ffffff; }

@@ -1,0 +1,52 @@
+.section3 {
+	min-height: 100vh;
+	padding: 80px 100px 100px 9vw;
+
+	.content_wrapper {
+		max-width: 40vw;
+		color: #0d0d0d;
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 40px;
+		h1 {
+			font-family: "Crimson Text";
+			font-weight: 400;
+			font-size: 48px;
+			line-height: 66px;
+		}
+		h2 {
+			font-family: Montserrat;
+			font-weight: 400;
+			font-size: 36.9239px;
+			line-height: 45px;
+		}
+		p {
+			font-family: Poppins;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 21px;
+			margin: 20px 0px;
+		}
+	}
+	.image_wrapper {
+		.images1,
+		.images2,
+		.images3 {
+			display: flex;
+			position: relative;
+			img {
+				margin-right: 60px;
+			}
+			h2 {
+				position: absolute;
+				bottom: 15%;
+				left: 20px;
+				font-family: Avenir;
+				font-weight: 500;
+				font-size: 36px;
+				line-height: 49px;
+				color: #fff;
+			}
+		}
+	}
+}
