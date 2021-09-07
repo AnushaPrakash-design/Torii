@@ -1,0 +1,207 @@
+@media only screen and (max-width: 400px) {
+  .header_section .nav_bar {
+    padding-top: 5vh; }
+    .header_section .nav_bar .logo {
+      width: 25.86px;
+      height: 17.84px; }
+    .header_section .nav_bar .container {
+      width: 15px;
+      height: 10.37px;
+      padding-left: 65vw; }
+  .app_container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow-x: hidden; }
+  .section1 {
+    width: 100%;
+    height: 100vh;
+    position: relative; }
+    .section1 .background_image {
+      height: 100%;
+      position: absolute;
+      width: initial;
+      left: initial;
+      right: -30.78vh; }
+    .section1 .title_wrapper {
+      padding-top: 270px;
+      padding-left: 13vw; }
+      .section1 .title_wrapper .main_1 {
+        font-size: 38.6266px;
+        line-height: 40px; }
+      .section1 .title_wrapper .main_2 {
+        font-size: 33.5608px;
+        line-height: 37px; }
+    .section1 .caption_wrapper {
+      bottom: 10%; }
+      .section1 .caption_wrapper h3 {
+        font-size: 16.0944px;
+        line-height: 24px; }
+      .section1 .caption_wrapper p {
+        font-size: 16.0944px;
+        line-height: 24px; }
+  .section2 {
+    display: block;
+    padding: 0;
+    margin: 0; }
+    .section2 .left_wrapper {
+      display: block;
+      padding: 0; }
+      .section2 .left_wrapper .content_wrapper {
+        padding-left: 13vw;
+        padding-right: 13vw; }
+        .section2 .left_wrapper .content_wrapper h1 {
+          padding-top: 50px;
+          font-size: 36px;
+          line-height: 44px; }
+        .section2 .left_wrapper .content_wrapper h2 {
+          font-size: 28.7559px;
+          line-height: 35px; }
+        .section2 .left_wrapper .content_wrapper p {
+          max-width: 100%;
+          font-size: 16px;
+          line-height: 22px;
+          margin-bottom: 50px; }
+      .section2 .left_wrapper .image_wrapper {
+        margin: 0px 6.4vw;
+        padding-bottom: 36px;
+        display: block; }
+        .section2 .left_wrapper .image_wrapper img {
+          width: 100%;
+          display: block; }
+        .section2 .left_wrapper .image_wrapper img:first-child {
+          padding-bottom: 36px;
+          margin-right: 0px; }
+    .section2 .right_wrapper {
+      margin: 0px 6.4vw; }
+    .section2 img {
+      width: 100%;
+      display: block; }
+  .section3 {
+    padding: 0;
+    margin: 0; }
+    .section3 .content_wrapper {
+      max-width: 100%;
+      padding-left: 13vw;
+      padding-right: 13vw;
+      margin-bottom: 50px; }
+      .section3 .content_wrapper h1 {
+        padding-top: 60px;
+        font-size: 36px;
+        line-height: 44px; }
+      .section3 .content_wrapper h2 {
+        font-size: 28.7559px;
+        line-height: 35px; }
+      .section3 .content_wrapper p {
+        max-width: 100%;
+        font-size: 16px;
+        line-height: 22px;
+        margin-top: 24px;
+        margin-bottom: 0px; }
+    .section3 .image_wrapper {
+      margin: 0;
+      display: block; }
+      .section3 .image_wrapper .images1,
+      .section3 .image_wrapper .images2,
+      .section3 .image_wrapper .images3 {
+        display: block;
+        min-height: 52vh;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        top: 0;
+        left: 0;
+        margin-bottom: 0px; }
+        .section3 .image_wrapper .images1 img,
+        .section3 .image_wrapper .images2 img,
+        .section3 .image_wrapper .images3 img {
+          margin-right: 0;
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          object-fit: cover; }
+        .section3 .image_wrapper .images1 h2,
+        .section3 .image_wrapper .images2 h2,
+        .section3 .image_wrapper .images3 h2 {
+          font-family: Avenir;
+          font-size: 28.97px;
+          line-height: 40px;
+          left: 37px;
+          bottom: 40px; }
+        .section3 .image_wrapper .images1 .h2_svg1,
+        .section3 .image_wrapper .images2 .h2_svg1,
+        .section3 .image_wrapper .images3 .h2_svg1 {
+          display: flex;
+          align-items: center; }
+          .section3 .image_wrapper .images1 .h2_svg1 img,
+          .section3 .image_wrapper .images2 .h2_svg1 img,
+          .section3 .image_wrapper .images3 .h2_svg1 img {
+            width: 5px;
+            height: 9px;
+            left: 237px;
+            bottom: 52px; }
+        .section3 .image_wrapper .images1 .h2_svg2,
+        .section3 .image_wrapper .images2 .h2_svg2,
+        .section3 .image_wrapper .images3 .h2_svg2 {
+          display: flex;
+          align-items: center; }
+          .section3 .image_wrapper .images1 .h2_svg2 img,
+          .section3 .image_wrapper .images2 .h2_svg2 img,
+          .section3 .image_wrapper .images3 .h2_svg2 img {
+            width: 5px;
+            height: 9px;
+            left: 114px;
+            bottom: 52px; }
+        .section3 .image_wrapper .images1 .h2_svg3,
+        .section3 .image_wrapper .images2 .h2_svg3,
+        .section3 .image_wrapper .images3 .h2_svg3 {
+          display: flex;
+          align-items: center; }
+          .section3 .image_wrapper .images1 .h2_svg3 img,
+          .section3 .image_wrapper .images2 .h2_svg3 img,
+          .section3 .image_wrapper .images3 .h2_svg3 img {
+            width: 5px;
+            height: 9px;
+            left: 191px;
+            bottom: 52px; }
+  .section4 .content_wrapper h1 {
+    font-size: 36px;
+    line-height: 50px; }
+  .section4 .content_wrapper .btn {
+    border: 0.5px solid #ffffff;
+    padding: 6px 12px;
+    font-size: 13px;
+    line-height: 19px; }
+  .section5 {
+    min-height: 70vh; }
+    .section5 .content_wrapper {
+      display: block; }
+      .section5 .content_wrapper img {
+        padding: 0px;
+        width: 25px;
+        height: 21.67px; }
+      .section5 .content_wrapper .part1 {
+        margin-top: 44px; }
+        .section5 .content_wrapper .part1 h5 {
+          font-size: 16px;
+          line-height: 24px;
+          padding-bottom: 8px; }
+        .section5 .content_wrapper .part1 a {
+          font-size: 16px;
+          line-height: 24px;
+          padding-bottom: 2px; }
+      .section5 .content_wrapper .part2 {
+        margin-top: 44px; }
+        .section5 .content_wrapper .part2 h5 {
+          font-size: 16px;
+          line-height: 24px;
+          padding-bottom: 8px; }
+        .section5 .content_wrapper .part2 a {
+          font-size: 16px;
+          line-height: 24px;
+          padding-bottom: 2px; }
+  .footer p {
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: -80px; } }

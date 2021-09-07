@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "section3.css",
+	"sources": [
+		"../styles/section3.scss"
+	],
+	"sourcesContent": [
+		".section3 {\r\n\tmin-height: 100vh;\r\n\tpadding: 80px 100px 100px 9vw;\r\n\r\n\t.content_wrapper {\r\n\t\tmax-width: 40vw;\r\n\t\tcolor: #0d0d0d;\r\n\t\tdisplay: flex;\r\n\t\tflex-direction: column;\r\n\t\tmargin-bottom: 40px;\r\n\t\th1 {\r\n\t\t\tfont-family: \"Crimson Text\";\r\n\t\t\tfont-weight: 400;\r\n\t\t\tfont-size: 48px;\r\n\t\t\tline-height: 66px;\r\n\t\t}\r\n\t\th2 {\r\n\t\t\tfont-family: Montserrat;\r\n\t\t\tfont-weight: 400;\r\n\t\t\tfont-size: 36.9239px;\r\n\t\t\tline-height: 45px;\r\n\t\t}\r\n\t\tp {\r\n\t\t\tfont-family: Poppins;\r\n\t\t\tfont-weight: 400;\r\n\t\t\tfont-size: 16px;\r\n\t\t\tline-height: 21px;\r\n\t\t\tmargin: 20px 0px;\r\n\t\t}\r\n\t}\r\n\t.image_wrapper {\r\n\t\t.images1,\r\n\t\t.images2,\r\n\t\t.images3 {\r\n\t\t\tdisplay: flex;\r\n\t\t\tposition: relative;\r\n\t\t\timg {\r\n\t\t\t\tmargin-right: 60px;\r\n\t\t\t}\r\n\t\t\th2 {\r\n\t\t\t\tposition: absolute;\r\n\t\t\t\tbottom: 15%;\r\n\t\t\t\tleft: 20px;\r\n\t\t\t\tfont-family: Avenir;\r\n\t\t\t\tfont-weight: 500;\r\n\t\t\t\tfont-size: 36px;\r\n\t\t\t\tline-height: 49px;\r\n\t\t\t\tcolor: #fff;\r\n\t\t\t}\r\n\t\t}\r\n\t}\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,SAAS,CAAC;EACT,UAAU,EAAE,KAAK;EACjB,OAAO,EAAE,oBAAoB;CAiD7B;;;AAnDD,AAIC,SAJQ,CAIR,gBAAgB,CAAC;EAChB,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,OAAO;EACd,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,aAAa,EAAE,IAAI;CAoBnB;;;AA7BF,AAUE,SAVO,CAIR,gBAAgB,CAMf,EAAE,CAAC;EACF,WAAW,EAAE,cAAc;EAC3B,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;CACjB;;;AAfH,AAgBE,SAhBO,CAIR,gBAAgB,CAYf,EAAE,CAAC;EACF,WAAW,EAAE,UAAU;EACvB,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,SAAS;EACpB,WAAW,EAAE,IAAI;CACjB;;;AArBH,AAsBE,SAtBO,CAIR,gBAAgB,CAkBf,CAAC,CAAC;EACD,WAAW,EAAE,OAAO;EACpB,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,MAAM,EAAE,QAAQ;CAChB;;;AA5BH,AA+BE,SA/BO,CA8BR,cAAc,CACb,QAAQ;AA/BV,SAAS,CA8BR,cAAc,CAEb,QAAQ;AAhCV,SAAS,CA8BR,cAAc,CAGb,QAAQ,CAAC;EACR,OAAO,EAAE,IAAI;EACb,QAAQ,EAAE,QAAQ;CAclB;;;AAjDH,AAoCG,SApCM,CA8BR,cAAc,CACb,QAAQ,CAKP,GAAG;AApCN,SAAS,CA8BR,cAAc,CAEb,QAAQ,CAIP,GAAG;AApCN,SAAS,CA8BR,cAAc,CAGb,QAAQ,CAGP,GAAG,CAAC;EACH,YAAY,EAAE,IAAI;CAClB;;;AAtCJ,AAuCG,SAvCM,CA8BR,cAAc,CACb,QAAQ,CAQP,EAAE;AAvCL,SAAS,CA8BR,cAAc,CAEb,QAAQ,CAOP,EAAE;AAvCL,SAAS,CA8BR,cAAc,CAGb,QAAQ,CAMP,EAAE,CAAC;EACF,QAAQ,EAAE,QAAQ;EAClB,MAAM,EAAE,GAAG;EACX,IAAI,EAAE,IAAI;EACV,WAAW,EAAE,MAAM;EACnB,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,KAAK,EAAE,IAAI;CACX"
+}

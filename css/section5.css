@@ -1,45 +1,73 @@
+/* line 1, ../organised/JAPAN WEBSITE/styles/section5.scss */
 .section5 {
   min-height: 42vh;
   position: relative;
-  background-color: #182221; }
-  .section5 .content_wrapper {
-    display: flex;
-    align-items: flex-start;
-    padding: 5vh 10vw;
-    width: 100%; }
-    .section5 .content_wrapper img {
-      padding: 10px; }
-    .section5 .content_wrapper div {
-      color: #ffffff; }
-      .section5 .content_wrapper div h5 {
-        font-family: Poppins;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 27px;
-        color: #ffffff;
-        opacity: 0.9;
-        padding-bottom: 21px; }
-      .section5 .content_wrapper div a {
-        display: block;
-        font-family: Poppins;
-        font-size: 16px;
-        line-height: 24px;
-        color: #ffffff;
-        opacity: 0.6;
-        padding-bottom: 11px;
-        transition: 250ms all ease-in-out;
-        text-decoration: none; }
-        .section5 .content_wrapper div a:hover {
-          opacity: 1; }
-    .section5 .content_wrapper .part1 {
-      margin-left: auto;
-      padding-right: 60px; }
-  .section5 .footer {
-    padding-top: 100px;
-    padding-left: 10vw;
-    padding-bottom: 40px;
-    font-family: Poppins;
-    font-size: 14px;
-    line-height: 21px;
-    color: #ffffff;
-    opacity: 0.8; }
+  background-color: #182221;
+}
+
+/* line 5, ../organised/JAPAN WEBSITE/styles/section5.scss */
+.section5 .content_wrapper {
+  display: flex;
+  align-items: flex-start;
+  padding: 5vh 10vw;
+  width: 100%;
+}
+
+/* line 11, ../organised/JAPAN WEBSITE/styles/section5.scss */
+.section5 .content_wrapper img {
+  padding: 10px;
+}
+
+/* line 14, ../organised/JAPAN WEBSITE/styles/section5.scss */
+.section5 .content_wrapper div {
+  color: #ffffff;
+}
+
+/* line 16, ../organised/JAPAN WEBSITE/styles/section5.scss */
+.section5 .content_wrapper div h5 {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+  opacity: 0.9;
+  padding-bottom: 21px;
+}
+
+/* line 25, ../organised/JAPAN WEBSITE/styles/section5.scss */
+.section5 .content_wrapper div a {
+  display: block;
+  font-family: Poppins;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  opacity: 0.6;
+  padding-bottom: 11px;
+  transition: 250ms all ease-in-out;
+  text-decoration: none;
+}
+
+/* line 36, ../organised/JAPAN WEBSITE/styles/section5.scss */
+.section5 .content_wrapper div a:hover {
+  opacity: 1;
+}
+
+/* line 75, ../organised/JAPAN WEBSITE/styles/section5.scss */
+.section5 .content_wrapper .part1 {
+  margin-left: auto;
+  padding-right: 60px;
+}
+
+/* line 80, ../organised/JAPAN WEBSITE/styles/section5.scss */
+.section5 .footer {
+  padding-top: 100px;
+  padding-left: 10vw;
+  padding-bottom: 40px;
+  font-family: Poppins;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+/*# sourceMappingURL=section5.css.map */

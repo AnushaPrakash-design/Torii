@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "section2.css",
+	"sources": [
+		"../styles/section2.scss"
+	],
+	"sourcesContent": [
+		".section2 {\r\n\tmin-height: 100vh;\r\n\tpadding: 100px 100px 100px 11vw;\r\n\tdisplay: flex;\r\n\r\n\t.left_wrapper {\r\n\t\tmin-width: 44vw;\r\n\t\tdisplay: flex;\r\n\t\tflex-direction: column;\r\n\t\t.content_wrapper {\r\n\t\t\tcolor: #0d0d0d;\r\n\t\t\th1 {\r\n\t\t\t\tfont-family: \"Crimson Text\";\r\n\t\t\t\tfont-weight: 400;\r\n\t\t\t\tfont-size: 48px;\r\n\t\t\t\tline-height: 46px;\r\n\t\t\t}\r\n\t\t\th2 {\r\n\t\t\t\tfont-family: Montserrat;\r\n\t\t\t\tfont-weight: 400;\r\n\t\t\t\tfont-size: 36px;\r\n\t\t\t\tline-height: 45px;\r\n\t\t\t}\r\n\t\t\tp {\r\n\t\t\t\tfont-family: Poppins;\r\n\t\t\t\tfont-weight: 400;\r\n\t\t\t\tfont-size: 16px;\r\n\t\t\t\tline-height: 21px;\r\n\t\t\t\tmax-width: 75%;\r\n\t\t\t\tmargin: 36px 0;\r\n\t\t\t}\r\n\t\t}\r\n\t\t.image_wrapper {\r\n\t\t\tmargin-top: auto;\r\n\t\t\tdisplay: flex;\r\n\r\n\t\t\timg {\r\n\t\t\t\t&:first-child {\r\n\t\t\t\t\tmargin-right: 33px;\r\n\t\t\t\t}\r\n\t\t\t}\r\n\t\t}\r\n\t}\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,SAAS,CAAC;EACT,UAAU,EAAE,KAAK;EACjB,OAAO,EAAE,sBAAsB;EAC/B,OAAO,EAAE,IAAI;CAwCb;;;AA3CD,AAKC,SALQ,CAKR,aAAa,CAAC;EACb,SAAS,EAAE,IAAI;EACf,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;CAkCtB;;;AA1CF,AASE,SATO,CAKR,aAAa,CAIZ,gBAAgB,CAAC;EAChB,KAAK,EAAE,OAAO;CAqBd;;;AA/BH,AAWG,SAXM,CAKR,aAAa,CAIZ,gBAAgB,CAEf,EAAE,CAAC;EACF,WAAW,EAAE,cAAc;EAC3B,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;CACjB;;;AAhBJ,AAiBG,SAjBM,CAKR,aAAa,CAIZ,gBAAgB,CAQf,EAAE,CAAC;EACF,WAAW,EAAE,UAAU;EACvB,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;CACjB;;;AAtBJ,AAuBG,SAvBM,CAKR,aAAa,CAIZ,gBAAgB,CAcf,CAAC,CAAC;EACD,WAAW,EAAE,OAAO;EACpB,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,SAAS,EAAE,GAAG;EACd,MAAM,EAAE,MAAM;CACd;;;AA9BJ,AAgCE,SAhCO,CAKR,aAAa,CA2BZ,cAAc,CAAC;EACd,UAAU,EAAE,IAAI;EAChB,OAAO,EAAE,IAAI;CAOb;;;AAzCH,AAqCI,SArCK,CAKR,aAAa,CA2BZ,cAAc,CAIb,GAAG,AACD,YAAY,CAAC;EACb,YAAY,EAAE,IAAI;CAClB"
+}

@@ -1,0 +1,5 @@
+.header_section .nav_bar {
+  display: flex;
+  align-items: center;
+  padding: 4vh 10vw;
+  z-index: 100; }

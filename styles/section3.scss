@@ -29,10 +29,10 @@
 		}
 	}
 	.image_wrapper {
+		display: flex;
 		.images1,
 		.images2,
 		.images3 {
-			display: flex;
 			position: relative;
 			img {
 				margin-right: 60px;

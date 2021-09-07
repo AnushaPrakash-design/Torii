@@ -4,26 +4,5 @@
 		align-items: center;
 		padding: 4vh 10vw;
 		z-index: 100;
-
-		ul {
-			margin-left: auto;
-			list-style: none;
-			display: flex;
-
-			a {
-				font-family: "Poppins", sans-serif;
-				text-decoration: none;
-				padding: 0 27px;
-				color: #ffffff;
-				font-size: 16px;
-				line-height: 24px;
-				opacity: 0.6;
-				transition: 250ms all ease-in-out;
-
-				&:hover {
-					color: #276877;
-				}
-			}
-		}
 	}
 }

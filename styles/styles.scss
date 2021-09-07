@@ -1,10 +1,10 @@
-@import "_variables";
-@import "header_section";
-@import "section1";
-@import "section2";
-@import "section3";
-@import "section4";
-@import "section5";
+@import "header_section.scss";
+@import "section1.scss";
+@import "section2.scss";
+@import "section3.scss";
+@import "section4.scss";
+@import "section5.scss";
+@import "mobile.scss";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&display=swap");
@@ -14,6 +14,10 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+
+	img {
+		display: block;
+	}
 }
 
 body {

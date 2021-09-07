@@ -23,6 +23,7 @@
 			}
 			p {
 				font-family: Poppins;
+				font-weight: 400;
 				font-size: 16px;
 				line-height: 21px;
 				max-width: 75%;
@@ -31,6 +32,7 @@
 		}
 		.image_wrapper {
 			margin-top: auto;
+			display: flex;
 
 			img {
 				&:first-child {
