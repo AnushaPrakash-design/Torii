@@ -225,7 +225,7 @@
     color: #ffffff;
     opacity: 0.8; }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 430px) {
   .header_section .nav_bar {
     padding-top: 5vh; }
     .header_section .nav_bar .logo {
