@@ -251,7 +251,7 @@
       left: initial;
       right: -30.78vh; }
     .section1 .title_wrapper {
-      padding-top: 270px;
+      padding-top: 43vh;
       padding-left: 13vw; }
       .section1 .title_wrapper .main_1 {
         font-size: 38.6266px;
@@ -355,19 +355,22 @@
           font-family: Avenir;
           font-size: 28.97px;
           line-height: 40px;
-          left: 37px;
+          left: 49px;
           bottom: 40px; }
         .section3 .image_wrapper .images1 .h2_svg1,
         .section3 .image_wrapper .images2 .h2_svg1,
         .section3 .image_wrapper .images3 .h2_svg1 {
           display: flex;
-          align-items: center; }
+          align-items: center;
+          height: 100px;
+          top: 94vh;
+          width: 100%; }
           .section3 .image_wrapper .images1 .h2_svg1 img,
           .section3 .image_wrapper .images2 .h2_svg1 img,
           .section3 .image_wrapper .images3 .h2_svg1 img {
             width: 5px;
             height: 9px;
-            left: 237px;
+            left: 246px;
             bottom: 52px; }
         .section3 .image_wrapper .images1 .h2_svg2,
         .section3 .image_wrapper .images2 .h2_svg2,
@@ -379,7 +382,7 @@
           .section3 .image_wrapper .images3 .h2_svg2 img {
             width: 5px;
             height: 9px;
-            left: 114px;
+            left: 123px;
             bottom: 52px; }
         .section3 .image_wrapper .images1 .h2_svg3,
         .section3 .image_wrapper .images2 .h2_svg3,
@@ -391,7 +394,7 @@
           .section3 .image_wrapper .images3 .h2_svg3 img {
             width: 5px;
             height: 9px;
-            left: 191px;
+            left: 200px;
             bottom: 52px; }
   .section4 .content_wrapper h1 {
     font-size: 36px;
