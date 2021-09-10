@@ -109,9 +109,9 @@
         min-height: 52vh;
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 110%;
         top: 0;
-        left: 0;
+        left: -20px;
         margin-bottom: 0px; }
         .section3 .image_wrapper .images1 img,
         .section3 .image_wrapper .images2 img,

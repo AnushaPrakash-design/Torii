@@ -189,6 +189,7 @@
 			margin: 0;
 			display: block;
 			width: 100%;
+
 			// position: relative;
 			// max-width: 100%;
 			// height: auto;
@@ -215,9 +216,9 @@
 				min-height: 52vh;
 				display: flex;
 				flex-direction: column;
-				width: 100%;
+				width: 110%;
 				top: 0;
-				left: 0;
+				left: -20px;
 				margin-bottom: 0px;
 
 				img {
