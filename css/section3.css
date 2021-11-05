@@ -1,6 +1,8 @@
 .section3 {
   min-height: 100vh;
-  padding: 80px 100px 100px 9vw; }
+  max-width: 1120px;
+  padding: 100px 0px 120px 0px;
+  margin: 0px auto; }
   .section3 .content_wrapper {
     max-width: 40vw;
     color: #0d0d0d;

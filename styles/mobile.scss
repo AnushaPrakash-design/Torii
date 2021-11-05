@@ -1,6 +1,6 @@
 // header_section
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 768px) {
 	.header_section {
 		.nav_bar {
 			// display: none;
@@ -218,7 +218,7 @@
 				flex-direction: column;
 				width: 110%;
 				top: 0;
-				left: -20px;
+				left: -5%;
 				margin-bottom: 0px;
 
 				img {

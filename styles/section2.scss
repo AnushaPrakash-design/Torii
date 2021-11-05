@@ -1,10 +1,12 @@
 .section2 {
 	min-height: 100vh;
-	padding: 100px 100px 100px 11vw;
+	padding: 100px 0px 100px 0px;
 	display: flex;
+	max-width: 1160px;
+	margin: 0px auto;
 
 	.left_wrapper {
-		min-width: 44vw;
+		// min-width: 35vw;
 		display: flex;
 		flex-direction: column;
 		.content_wrapper {
@@ -33,12 +35,22 @@
 		.image_wrapper {
 			margin-top: auto;
 			display: flex;
+			margin-right: 2.2vw;
 
-			img {
-				&:first-child {
-					margin-right: 33px;
-				}
+			.img1 {
+				margin-right: 2.2vw;
 			}
+			// .img2 {
+			// 	margin-right: 2.2vw;
+			// }
+		}
+	}
+	.right_wrapper {
+		// min-width: 34vw;
+		img {
+			object-fit: cover;
+			height: 100%;
+			// width: 100%;
 		}
 	}
 }
