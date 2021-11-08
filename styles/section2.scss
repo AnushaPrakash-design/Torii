@@ -1,12 +1,12 @@
 .section2 {
 	min-height: 100vh;
-	padding: 100px 0px 100px 0px;
+	padding: 200px 0px 100px 0px;
 	display: flex;
 	max-width: 1160px;
 	margin: 0px auto;
 
 	.left_wrapper {
-		// min-width: 35vw;
+		width: 45.8vw;
 		display: flex;
 		flex-direction: column;
 		.content_wrapper {
@@ -46,11 +46,11 @@
 		}
 	}
 	.right_wrapper {
-		// min-width: 34vw;
+		width: 34.3vw;
 		img {
 			object-fit: cover;
 			height: 100%;
-			// width: 100%;
+			width: 100%;
 		}
 	}
 }

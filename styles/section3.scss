@@ -1,9 +1,9 @@
 .section3 {
 	min-height: 100vh;
 	max-width: 1120px;
-
 	padding: 100px 0px 120px 0px;
 	margin: 0px auto;
+	position: relative;
 
 	.content_wrapper {
 		max-width: 40vw;
@@ -33,22 +33,45 @@
 	}
 	.image_wrapper {
 		display: flex;
+		position: absolute;
+		// max-height: 55vh;
+		width: 100%;
+		.images1,
+		.images2 {
+			margin-right: auto;
+			// img {
+			// }
+		}
 		.images1,
 		.images2,
 		.images3 {
-			position: relative;
-			img {
-				margin-right: 60px;
-			}
-			h2 {
+			height: 100%;
+			// width: min-content;
+
+			.h2_svg1,
+			.h2_svg2,
+			.h2_svg3 {
+				width: 100%;
+				// height: 100%;
 				position: absolute;
-				bottom: 15%;
-				left: 20px;
-				font-family: Avenir;
-				font-weight: 500;
-				font-size: 36px;
-				line-height: 49px;
-				color: #fff;
+				top: 0;
+				left: 0;
+				display: flex;
+				h2 {
+					// position: absolute;
+					bottom: 15%;
+					left: 20px;
+					font-family: Poppins;
+					font-weight: 500;
+					font-size: 36px;
+					line-height: 49px;
+					color: #fff;
+				}
+				img {
+					// position: absolute;
+					bottom: 18%;
+					margin-left: 150px;
+				}
 			}
 		}
 	}

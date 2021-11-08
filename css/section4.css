@@ -44,3 +44,6 @@
       font-size: 14px;
       line-height: 21px;
       color: #ffffff; }
+      .section4 .content_wrapper .btn:hover {
+        background-color: #fff;
+        color: black; }
