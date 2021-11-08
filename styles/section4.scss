@@ -5,7 +5,6 @@
 
 	.background_image2 {
 		height: 100%;
-		width: 100%;
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -50,10 +49,6 @@
 			font-size: 14px;
 			line-height: 21px;
 			color: #ffffff;
-			&:hover {
-				background-color: #fff;
-				color: black;
-			}
 		}
 	}
 }

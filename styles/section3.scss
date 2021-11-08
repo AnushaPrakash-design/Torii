@@ -1,78 +1,156 @@
 .section3 {
-	min-height: 100vh;
-	max-width: 1120px;
-	padding: 100px 0px 120px 0px;
-	margin: 0px auto;
-	position: relative;
+  min-height: 100vh;
+  padding: 80px 100px 100px 9vw;
 
-	.content_wrapper {
-		max-width: 40vw;
-		color: #0d0d0d;
-		display: flex;
-		flex-direction: column;
-		margin-bottom: 40px;
-		h1 {
-			font-family: "Crimson Text";
-			font-weight: 400;
-			font-size: 48px;
-			line-height: 66px;
-		}
-		h2 {
-			font-family: Montserrat;
-			font-weight: 400;
-			font-size: 36.9239px;
-			line-height: 45px;
-		}
-		p {
-			font-family: Poppins;
-			font-weight: 400;
-			font-size: 16px;
-			line-height: 21px;
-			margin: 20px 0px;
-		}
-	}
-	.image_wrapper {
-		display: flex;
-		position: absolute;
-		// max-height: 55vh;
-		width: 100%;
-		.images1,
-		.images2 {
-			margin-right: auto;
-			// img {
-			// }
-		}
-		.images1,
-		.images2,
-		.images3 {
-			height: 100%;
-			// width: min-content;
+  .content_wrapper {
+    max-width: 40vw;
+    color: #0d0d0d;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    h1 {
+      font-family: "Crimson Text";
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 66px;
+    }
+    h2 {
+      font-family: Montserrat;
+      font-weight: 400;
+      font-size: 36.9239px;
+      line-height: 45px;
+    }
+    p {
+      font-family: Poppins;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 21px;
+      margin: 20px 0px;
+    }
+  }
+  .image_wrapper {
+    display: flex;
+    .images1,
+    .images2,
+    .images3 {
+      position: relative;
+      img {
+        margin-right: 60px;
+      }
+      h2 {
+        position: absolute;
+        bottom: 15%;
+        left: 20px;
+        font-family: Avenir;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 49px;
+        color: #fff;
+      }
+      &:not(:first-child) {
+      }
+    }
+  }
 
-			.h2_svg1,
-			.h2_svg2,
-			.h2_svg3 {
-				width: 100%;
-				// height: 100%;
-				position: absolute;
-				top: 0;
-				left: 0;
-				display: flex;
-				h2 {
-					// position: absolute;
-					bottom: 15%;
-					left: 20px;
-					font-family: Poppins;
-					font-weight: 500;
-					font-size: 36px;
-					line-height: 49px;
-					color: #fff;
-				}
-				img {
-					// position: absolute;
-					bottom: 18%;
-					margin-left: 150px;
-				}
-			}
-		}
-	}
+  @media only screen and (min-width: 768px) {
+    min-height: 0;
+    padding: 0;
+    width: 100%;
+    padding-bottom: 100px;
+
+    .content_wrapper {
+      max-width: 80vw;
+    }
+    .image_wrapper {
+      flex-direction: column;
+      grid-gap: 80px;
+      max-width: 80vw;
+
+      .images1,
+      .images2,
+      .images3 {
+        height: 42vh;
+        overflow: hidden;
+        .bg_img {
+          width: 100%;
+        }
+        .text_wrap {
+          margin-left: 0;
+          display: flex;
+          grid-gap: 8px;
+          align-items: center;
+          position: absolute;
+          bottom: 15%;
+          left: 10%;
+          h2 {
+            position: static;
+            font-family: Avenir;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 49px;
+            color: #fff;
+          }
+
+          img {
+            width: 6px;
+            margin-top: 5px;
+            margin-right: 0;
+          }
+        }
+        div {
+          &:not(:first-child) {
+            // margin-left: 60px;
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (min-width: 1440px) and (orientation: landscape) {
+    width: 100%;
+
+    .image_wrapper {
+      flex-direction: row;
+      grid-gap: 3%;
+      max-width: 80vw;
+
+      .images1,
+      .images2,
+      .images3 {
+        height: initial;
+
+        .bg_img {
+          width: 100%;
+        }
+        .text_wrap {
+          margin-left: 0;
+          display: flex;
+          grid-gap: 8px;
+          align-items: center;
+          position: absolute;
+          bottom: 15%;
+          left: 10%;
+          h2 {
+            position: static;
+            font-family: Avenir;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 49px;
+            color: #fff;
+          }
+
+          img {
+            width: 6px;
+            margin-top: 5px;
+            margin-right: 0;
+          }
+        }
+        div {
+          &:not(:first-child) {
+            // margin-left: 60px;
+          }
+        }
+      }
+    }
+  }
 }

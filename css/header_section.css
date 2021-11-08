@@ -1,11 +1,5 @@
-header {
-  width: 100%; }
-  header .nav_bar {
-    display: flex;
-    align-items: center;
-    padding: 4vh 10vw; }
-    header .nav_bar logo {
-      transform: scale(2); }
-    header .nav_bar ham {
-      margin-left: auto;
-      transform: scale(2); }
+.header_section .nav_bar {
+  display: flex;
+  align-items: center;
+  padding: 4vh 10vw;
+  z-index: 100; }
