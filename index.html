@@ -9,6 +9,10 @@
 		<link rel="icon" href="./img/section5/logoo.svg" type="image/x-icon" />
 	</head>
 	<body>
+		<div id="preloader">
+			<img src="./img/section5/logoo.svg" alt="" />
+			<h2>TORII</h2>
+		</div>
 		<!-- header -->
 
 		<header>
@@ -192,10 +196,11 @@
 			</section>
 		</div>
 
-		<!-- <script>
-			function myFunction(x) {
-				x.classList.toggle("change");
-			}
-			</script> -->
+		<script>
+			var loader = document.getElementById("preloader");
+			window.addEventListener("load", function () {
+				loader.style.display = "none";
+			});
+		</script>
 	</body>
 </html>
