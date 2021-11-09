@@ -1,0 +1,15 @@
+header {
+	min-height: 100px;
+	width: 100%;
+	z-index: 100;
+}
+header .nav_bar {
+	display: flex;
+	align-items: center;
+	padding: 4vh 10vw;
+	height: 100px;
+}
+header .nav_bar .ham {
+	width: 20px;
+	margin-left: auto;
+}

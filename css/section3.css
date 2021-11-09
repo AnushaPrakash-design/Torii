@@ -39,7 +39,7 @@
         position: absolute;
         bottom: 15%;
         left: 20px;
-        font-family: Avenir;
+        font-family: Poppins;
         font-weight: 500;
         font-size: 36px;
         line-height: 49px;
@@ -64,7 +64,9 @@
           .section3 .image_wrapper .images1 .bg_img,
           .section3 .image_wrapper .images2 .bg_img,
           .section3 .image_wrapper .images3 .bg_img {
-            width: 100%; }
+            width: 100%;
+            height: inherit;
+            object-fit: cover; }
           .section3 .image_wrapper .images1 .text_wrap,
           .section3 .image_wrapper .images2 .text_wrap,
           .section3 .image_wrapper .images3 .text_wrap {
@@ -79,7 +81,7 @@
             .section3 .image_wrapper .images2 .text_wrap h2,
             .section3 .image_wrapper .images3 .text_wrap h2 {
               position: static;
-              font-family: Avenir;
+              font-family: Poppins;
               font-weight: 500;
               font-size: 32px;
               line-height: 49px;
@@ -104,7 +106,8 @@
           .section3 .image_wrapper .images1 .bg_img,
           .section3 .image_wrapper .images2 .bg_img,
           .section3 .image_wrapper .images3 .bg_img {
-            width: 100%; }
+            width: 100%;
+            height: 100%; }
           .section3 .image_wrapper .images1 .text_wrap,
           .section3 .image_wrapper .images2 .text_wrap,
           .section3 .image_wrapper .images3 .text_wrap {
@@ -113,13 +116,13 @@
             grid-gap: 8px;
             align-items: center;
             position: absolute;
-            bottom: 15%;
+            bottom: 10%;
             left: 10%; }
             .section3 .image_wrapper .images1 .text_wrap h2,
             .section3 .image_wrapper .images2 .text_wrap h2,
             .section3 .image_wrapper .images3 .text_wrap h2 {
               position: static;
-              font-family: Avenir;
+              font-family: Poppins;
               font-weight: 500;
               font-size: 32px;
               line-height: 49px;

@@ -16,7 +16,10 @@
   .section1 {
     width: 100%;
     height: 100vh;
-    position: relative; }
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
     .section1 .background_image {
       height: 100%;
       position: absolute;
@@ -24,14 +27,16 @@
       left: initial;
       right: -30.78vh; }
     .section1 .title_wrapper {
-      padding-top: 43vh;
-      padding-left: 13vw; }
+      padding: 0;
+      padding-bottom: 6vh;
+      margin-left: 14vw; }
       .section1 .title_wrapper .main_1 {
         font-size: 38.6266px;
         line-height: 40px; }
       .section1 .title_wrapper .main_2 {
         font-size: 33.5608px;
-        line-height: 37px; }
+        line-height: 37px;
+        margin-top: -10px; }
     .section1 .caption_wrapper {
       bottom: 10%; }
       .section1 .caption_wrapper h3 {
@@ -125,7 +130,7 @@
         .section3 .image_wrapper .images1 h2,
         .section3 .image_wrapper .images2 h2,
         .section3 .image_wrapper .images3 h2 {
-          font-family: Avenir;
+          font-family: Poppins;
           font-size: 28.97px;
           line-height: 40px;
           left: 49px;
@@ -143,7 +148,7 @@
           .section3 .image_wrapper .images3 .h2_svg1 img {
             width: 5px;
             height: 9px;
-            left: 246px;
+            left: 275px;
             bottom: 52px; }
         .section3 .image_wrapper .images1 .h2_svg2,
         .section3 .image_wrapper .images2 .h2_svg2,
@@ -155,7 +160,7 @@
           .section3 .image_wrapper .images3 .h2_svg2 img {
             width: 5px;
             height: 9px;
-            left: 123px;
+            left: 130px;
             bottom: 52px; }
         .section3 .image_wrapper .images1 .h2_svg3,
         .section3 .image_wrapper .images2 .h2_svg3,
@@ -167,7 +172,7 @@
           .section3 .image_wrapper .images3 .h2_svg3 img {
             width: 5px;
             height: 9px;
-            left: 200px;
+            left: 217px;
             bottom: 52px; }
   .section4 .content_wrapper h1 {
     font-size: 36px;

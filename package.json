@@ -12,8 +12,8 @@
   ],
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "node-sass": "^5.0.0"
-  },
-  "devDependencies": {}
+  }
 }

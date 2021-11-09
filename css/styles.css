@@ -2,11 +2,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Montserrat:wght@100;200;300;400;500;700&display=swap");
-.header_section .nav_bar {
-  display: flex;
-  align-items: center;
-  padding: 4vh 10vw;
+header {
+  min-height: 100px;
+  width: 100%;
   z-index: 100; }
+  header .nav_bar {
+    display: flex;
+    align-items: center;
+    padding: 4vh 10vw;
+    height: 100px; }
+    header .nav_bar .ham {
+      width: 20px;
+      margin-left: auto; }
 
 .section1 {
   min-height: 90vh;
@@ -199,7 +206,7 @@
         position: absolute;
         bottom: 15%;
         left: 20px;
-        font-family: Avenir;
+        font-family: Poppins;
         font-weight: 500;
         font-size: 36px;
         line-height: 49px;
@@ -224,7 +231,9 @@
           .section3 .image_wrapper .images1 .bg_img,
           .section3 .image_wrapper .images2 .bg_img,
           .section3 .image_wrapper .images3 .bg_img {
-            width: 100%; }
+            width: 100%;
+            height: inherit;
+            object-fit: cover; }
           .section3 .image_wrapper .images1 .text_wrap,
           .section3 .image_wrapper .images2 .text_wrap,
           .section3 .image_wrapper .images3 .text_wrap {
@@ -239,7 +248,7 @@
             .section3 .image_wrapper .images2 .text_wrap h2,
             .section3 .image_wrapper .images3 .text_wrap h2 {
               position: static;
-              font-family: Avenir;
+              font-family: Poppins;
               font-weight: 500;
               font-size: 32px;
               line-height: 49px;
@@ -264,7 +273,8 @@
           .section3 .image_wrapper .images1 .bg_img,
           .section3 .image_wrapper .images2 .bg_img,
           .section3 .image_wrapper .images3 .bg_img {
-            width: 100%; }
+            width: 100%;
+            height: 100%; }
           .section3 .image_wrapper .images1 .text_wrap,
           .section3 .image_wrapper .images2 .text_wrap,
           .section3 .image_wrapper .images3 .text_wrap {
@@ -273,13 +283,13 @@
             grid-gap: 8px;
             align-items: center;
             position: absolute;
-            bottom: 15%;
+            bottom: 10%;
             left: 10%; }
             .section3 .image_wrapper .images1 .text_wrap h2,
             .section3 .image_wrapper .images2 .text_wrap h2,
             .section3 .image_wrapper .images3 .text_wrap h2 {
               position: static;
-              font-family: Avenir;
+              font-family: Poppins;
               font-weight: 500;
               font-size: 32px;
               line-height: 49px;
@@ -297,6 +307,8 @@
   overflow-x: hidden; }
   .section4 .background_image2 {
     height: 100%;
+    width: 100%;
+    object-fit: cover;
     position: absolute;
     top: 0;
     left: 0;
@@ -332,10 +344,13 @@
       color: #fff;
       font-family: Poppins;
       font-style: normal;
-      font-weight: 300;
+      font-weight: 400;
       font-size: 14px;
       line-height: 21px;
       color: #ffffff; }
+      .section4 .content_wrapper .btn:hover {
+        background-color: #ffffff;
+        color: black; }
 
 .section5 {
   min-height: 42vh;
@@ -401,7 +416,10 @@
   .section1 {
     width: 100%;
     height: 100vh;
-    position: relative; }
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
     .section1 .background_image {
       height: 100%;
       position: absolute;
@@ -409,14 +427,16 @@
       left: initial;
       right: -30.78vh; }
     .section1 .title_wrapper {
-      padding-top: 43vh;
-      padding-left: 13vw; }
+      padding: 0;
+      padding-bottom: 6vh;
+      margin-left: 14vw; }
       .section1 .title_wrapper .main_1 {
         font-size: 38.6266px;
         line-height: 40px; }
       .section1 .title_wrapper .main_2 {
         font-size: 33.5608px;
-        line-height: 37px; }
+        line-height: 37px;
+        margin-top: -10px; }
     .section1 .caption_wrapper {
       bottom: 10%; }
       .section1 .caption_wrapper h3 {
@@ -510,7 +530,7 @@
         .section3 .image_wrapper .images1 h2,
         .section3 .image_wrapper .images2 h2,
         .section3 .image_wrapper .images3 h2 {
-          font-family: Avenir;
+          font-family: Poppins;
           font-size: 28.97px;
           line-height: 40px;
           left: 49px;
@@ -528,7 +548,7 @@
           .section3 .image_wrapper .images3 .h2_svg1 img {
             width: 5px;
             height: 9px;
-            left: 246px;
+            left: 275px;
             bottom: 52px; }
         .section3 .image_wrapper .images1 .h2_svg2,
         .section3 .image_wrapper .images2 .h2_svg2,
@@ -540,7 +560,7 @@
           .section3 .image_wrapper .images3 .h2_svg2 img {
             width: 5px;
             height: 9px;
-            left: 123px;
+            left: 130px;
             bottom: 52px; }
         .section3 .image_wrapper .images1 .h2_svg3,
         .section3 .image_wrapper .images2 .h2_svg3,
@@ -552,7 +572,7 @@
           .section3 .image_wrapper .images3 .h2_svg3 img {
             width: 5px;
             height: 9px;
-            left: 200px;
+            left: 217px;
             bottom: 52px; }
   .section4 .content_wrapper h1 {
     font-size: 36px;
